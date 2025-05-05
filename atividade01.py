@@ -1,4 +1,4 @@
-from biblioteca import imprima_numero, piramide
+from biblioteca import piramide
 
 piramide(10)
 piramide(4)
