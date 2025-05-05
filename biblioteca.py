@@ -16,4 +16,13 @@ def estoque (nome, quantidade, valor_unitario):
     valor_total= quantidade * valor_unitario
     return nome, valor_total
 #atividade04
-def
+def numero (a):
+    a = float(input("digite um numero para saber se ele é negativo ou pisitivo: "))
+    if a > 0:
+        print("o numero é P")
+    if a <0:
+        print("o numero é N")
+    elif a ==0:
+        print("o numero é Z")
+    else:
+        print()
