@@ -17,12 +17,36 @@ def estoque (nome, quantidade, valor_unitario):
     return nome, valor_total
 #atividade04
 def numero (a):
-    a = float(input("digite um numero para saber se ele é negativo ou pisitivo: "))
     if a > 0:
-        print("o numero é P")
+        return "P"
     if a <0:
-        print("o numero é N")
-    elif a ==0:
-        print("o numero é Z")
+        return "N"
     else:
-        print()
+        return "Z"
+#atividade05
+def calculo (num1, num2):
+    soma = num1 + num2
+    print(soma)
+#atividade06
+def somar (*itens):
+    soma = sum(itens)
+    print(soma)
+#atividade07
+def ao_contrario (texto):
+    contador = 0
+    for x in range(len(texto)-1, -1, -1):
+        if texto[x]!=" ":
+            contador += 1
+        print(contador)
+        print(texto[x], end=" ")
+#atividade08
+def numerosUnicos (lista):
+    novaLista = []
+    for x in lista:
+        if x not in novaLista:
+            novaLista.append(x)
+            print(novaLista)
+def lista2 (lista):
+    NovaLista=[]
+    NovaLista=set(lista)
+    print(NovaLista)

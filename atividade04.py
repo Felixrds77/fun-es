@@ -1,3 +1,4 @@
 from biblioteca import numero
 
-numero(0)
+reposta= numero(10)
+print(reposta)
